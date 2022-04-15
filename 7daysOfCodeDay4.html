@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>#7 Days Of Code - Lógica Javascript - Day 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleDay4.css">
+  </head>
+  <body>
+    <main>   
+      <div class="container">
+        <h1 class="tracking-in-expand">Jogo da adivinhação</h1>
+        <h4>Pensei em um número de 0 a 10. Você consegue adivinhar?<br>Vou te dar 3 chances!</h4>
+        <p>Insira um número para tentar adivinhar : <input type="number" name="chute" id="inputChute" onfocus="this.value='';"><button type="button" class="vibrate-1" id="btnChutar" onclick="adivinhaNum()" disabled="false">Chutar!</button></p>
+        <p>Número de chances: <strong id="numero-chances">3</strong></p>
+        <div id="mensagem"></div>
+      </div>
+    </main>
+    <footer>Feito por Dayara Rossi - Abril de 2022</footer>
+    <script src="scriptDay4.js"></script>
+  </body>
+</html>
